@@ -28,8 +28,6 @@ response = requests.delete('https://playground.learnqa.ru/ajax/api/compare_query
 
 print(response.text)
 
-
-
 list_req = ['POST', 'GET', 'DELETE', 'PUT']
 url = 'https://playground.learnqa.ru/ajax/api/compare_query_type'
 
